@@ -15,6 +15,37 @@ layout: compress
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
     <meta content="{{ site.share.fb_appid }}" property="fb:app_id">
     <meta content="{{ site.title }}" property="og:site_name">
+    <style type="text/css>                
+        table {
+            margin: 10px 0;
+            width: 100%;
+            border-collapse: collapse; //设置表格边框合并为单一边框
+        }
+        table caption {
+            height: 30px;
+            line-height: 30px;
+            font-weight: 700;
+        }
+        table thead th,
+        table tbody td {
+            padding:8px;
+            height: 19px;
+            line-height: 19px;
+            font-weight: 400;
+        }
+        table thead th {
+            text-align: left;
+            color:#fff;
+            background-color: #CCCCCC;
+        }
+        table tbody tr {
+            background-color: #fefefe;
+            color: #686868;
+        }
+        table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
 
     {% if page.noindex %}
       <meta name="robots" content="noindex">
@@ -90,7 +121,7 @@ layout: compress
     <!-- syntax highlighting CSS -->
     <link rel="stylesheet" href="/static/css/syntax.css">
     <!-- Bootstrap core CSS -->
-    <link href="/static/css/bootstrap.css" rel="stylesheet">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,300,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <!-- Custom CSS -->
