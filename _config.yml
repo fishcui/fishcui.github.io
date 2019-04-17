@@ -1,9 +1,9 @@
 title: Zenote
 description: Zenote
-author: 大卫同学
-github: https://github.com/zenwan
+author: 寻水的鱼
+github: https://github.com/fishcui
 about: I'm Programmer for ML . 
-disqus_shortname: Zenote
+disqus_shortname: FishNote
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
 
@@ -17,15 +17,15 @@ collections:
 
 social:
     - icon: fa-facebook
-      link: "https://www.facebook.com/zenwan340"
+      link: "#"
     - icon: fa-twitter
       link: "#"
     - icon: fa-linkedin
       link: "#"
     - icon: fa-weibo
-      link: "https://weibo.com/678055325"
+      link: "#"
     - icon: fa-github
-      link: "https://github.com/zenwan"
+      link: "https://github.com/fishcui"
 
 share:
   twitter_username: github.io
@@ -39,7 +39,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://zenwan.github.io"
+url: "https://fishcui.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
